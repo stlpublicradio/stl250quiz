@@ -420,9 +420,7 @@
                 var levels    = [
                                     quizValues.info.level1, // 80-100%
                                     quizValues.info.level2, // 60-79%
-                                    quizValues.info.level3, // 40-59%
-                                    quizValues.info.level4, // 20-39%
-                                    quizValues.info.level5  // 0-19%
+                                    quizValues.info.level3
                                 ],
                     score     = $(_element + ' ' + _correct).length,
                     levelRank = plugin.method.calculateLevel(score),
@@ -460,15 +458,11 @@
                 var percent = (correctAnswers / questionCount).toFixed(2),
                     level   = null;
 
-                if (plugin.method.inRange(0, 0.20, percent)) {
-                    level = 4;
-                } else if (plugin.method.inRange(0.21, 0.40, percent)) {
-                    level = 3;
-                } else if (plugin.method.inRange(0.41, 0.60, percent)) {
+                if (plugin.method.inRange(0, 0.33, percent)) {
                     level = 2;
-                } else if (plugin.method.inRange(0.61, 0.80, percent)) {
+                } else if (plugin.method.inRange(0.34, 0.66, percent)) {
                     level = 1;
-                } else if (plugin.method.inRange(0.81, 1.00, percent)) {
+                } else if (plugin.method.inRange(0.67, 1.00, percent)) {
                     level = 0;
                 }
 
