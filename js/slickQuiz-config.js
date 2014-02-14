@@ -5,7 +5,7 @@
 var quizJSON = {
     "info": {
         "name":    "STL 250 Quiz",
-        "main":    "<p>Where did you go to high school? If it was someplace in St. Louis, you might know some of these answers.</p>",
+        "main":    "<p>If all you know about St. Louis is that we hosted the 1904 World's Fair, you <em>might</em> get <em>one</em> of these questions right. See how much else you know about St. Louis' past 250 years. And, you might even learn something.</p>",
         "results": "<h5>Thanks for taking our quiz; be on the lookout for more about St. Louis' past throughout the year.</h5>",
         "level1":  "You’re not just a native; you are super-native.  You liberally add an “R” to any vowel that remotely resembles an “ah” sound. You probably spent every other weekend of your youth in the archives of the Missouri History Museum. Or, you’ve learned that the more Budweiser and Ted Drewes you consume, the more you know about St. Louis.",
         "level2":  "Pretty darn good.  You’ve lived here at least 10 years and are perhaps are a bit of history buff. You could almost pass for native, but every now and then you slip up and add the “s” sound to Gravois or forget to call them the baseball Cardinals.",
@@ -89,7 +89,7 @@ var quizJSON = {
 		{"option": "The Great Exhibition of Works of Industry of All Nations",     "correct": false} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p> <p>The Fair was a celebration of the Louisiana Purchase and of human ingenuity in the arts, sciences and industry.  In order to pull of the highly orchestrated event, more than 10,000 laborers cleared more than 1,200 acres of thickets and swamps in Forest Park and Clayton to create the grand landscape. Opening day of the Fair was April 30 and the event drew more than 200,000 people. The World’s Fair was also the host to the 1904 Olympic Games.</p>",
-            "incorrect": "<p><span>Incorrect.</span> </p><p>The Fair was called the &quot;Louisiana Purchase Exposition&quot;, a celebration of the Louisiana Purchase and of human ingenuity in the arts, sciences and industry.  In order to pull of the highly orchestrated event, more than 10,000 laborers cleared more than 1,200 acres of thickets and swamps in Forest Park and Clayton to create the grand landscape. Opening day of the Fair was April 30 and the event drew more than 200,000 people. The World’s Fair was also the host to the 1904 Olympic Games.</p>" // no comma here
+            "incorrect": "<p><span>Incorrect.</span> </p><p>The Fair was called the &quot;Louisiana Purchase Exposition&quot;, a celebration of the Louisiana Purchase and of human ingenuity in the arts, sciences and industry.  In order to pull of the highly orchestrated event, more than 10,000 laborers cleared more than 1,200 acres of thickets and swamps in Forest Park and Clayton to create the grand landscape. Opening day of the Fair was April 30 and the event drew more than 200,000 people. The World’s Fair was also the host to the 1904 Olympic Games.</p>   <p>The World's Columbian Exposition was Chicago, 1893; The Flushing Meadow Exposition was New York, 1939; and The Great Exhibition... was the World Expo for short and held in Hyde Park, London in 1851.</p>" // no comma here
         },
         { // Question 6
             "q": "Who served as the first Mayor of St. Louis?",
@@ -100,7 +100,7 @@ var quizJSON = {
 		{"option": "William Carr Lane",     "correct": true} // no comma here
             ],
             "correct": "<p><span>Correct!</span></p> <p>He was mayor from 1823-1829.</p>",
-            "incorrect": "<p><span>Incorrect.</span> </p><p>William Carr Lane first held that office, from 1823-1829.</p>" // no comma here
+            "incorrect": "<p><span>Incorrect.</span> </p><p>William Carr Lane first held that office, from 1823-1829.</p> <p>Henry Kiel was mayor from 1913 to 1925, Fracis Slay is the current mayor, since 2001 and Pierre Laclede was never mayor at all." // no comma here
         },
         { // Question 6
             "q": "What was the name of the roller coaster at the Forest Park Highlands amusement park?",
