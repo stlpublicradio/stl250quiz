@@ -1,5 +1,9 @@
 // Put all your page JS here
 
 $(function () {
-    $('#slickQuiz').slickQuiz();
+	var options = {
+		"perQuestionResponseMessaging": false,
+		"completionResponseMessaging": true
+	};
+    $('#slickQuiz').slickQuiz(options);
 });
