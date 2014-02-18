@@ -14,6 +14,10 @@
         <link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/theme.css" rel="stylesheet">
+        <script src="js/jquery.js"></script>
+	
+        <script src="js/share.min.js"></script>
+	
     </head>
 
     <body>
@@ -50,6 +54,7 @@
         </div>
 
         <div class="quizResults">
+		<div class="share-button"></div>
             <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
 
             <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
@@ -60,7 +65,6 @@
         </div>
 </div>
 
-        <script src="js/jquery.js"></script>
 	
 	<script type="text/javascript">
 	$(function () {
@@ -109,6 +113,17 @@
             ]
 }});
 	});
+	
+        $(function(){
+          $('.share-button').share({
+            title: 'Share Button Test',
+            image: 'http://carrot.is/img/fb-share.jpg',
+            app_id: '602752456409826',
+            background: 'rgba(255,255,255,.5)',
+            color: '#3B2B45',
+            flyout: 'top center'
+          });
+        });
 	
 	</script>
         <script src="js/slickQuiz.js"></script>
