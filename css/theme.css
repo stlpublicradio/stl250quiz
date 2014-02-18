@@ -388,8 +388,7 @@ ol.questions li {
 }
 
 ul.answers {
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 ul.responses li {
@@ -420,4 +419,8 @@ ul.responses li.correct p span {
 
 .quizArea, .quizResults {
     zoom: 1;
+}
+
+body {
+	background: #ddd;
 }
