@@ -26,8 +26,8 @@
                 randomSortQuestions: false,
                 randomSortAnswers: false,
                 preventUnanswered: false,
-                perQuestionResponseMessaging: true,
-                completionResponseMessaging: false
+                perQuestionResponseMessaging: false,
+                completionResponseMessaging: true
             },
 
             // Class Name Strings (Used for building quiz and for selectors)
