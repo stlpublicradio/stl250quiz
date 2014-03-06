@@ -15,6 +15,16 @@ body {
     line-height: 1.5em;
 }
 
+.body-embed {
+	background:#fff;
+}
+
+div.embed {
+	width: 560px;
+	margin: 0px;
+	border: none;
+}
+
 .navbar {
 	background:#bf311a;
 }
